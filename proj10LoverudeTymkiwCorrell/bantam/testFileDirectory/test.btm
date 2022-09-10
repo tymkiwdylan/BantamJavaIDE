@@ -1,0 +1,10 @@
+class Main{
+	int x;
+	int y;
+	
+	void main(){
+	x = 1;
+	y = 2+2;
+	var h = x+1;
+	}
+}

@@ -1,0 +1,65 @@
+/*
+Filename: ParserTestLoverudeTymkiwCorrel.btm
+
+Description: The first EVER bantam java file!
+
+Last Modified: April 24, 2022
+*/
+
+Class Vehicle{ }
+Class Dog{ }
+
+Class Car extends Vehicle{
+    String name;
+
+    Vehicle init(String name){
+        this.name = name;
+    }
+}
+
+Class main extends Vehicle{
+    //String g = "ddd";
+    int y = 5;
+    String o = "test";
+    Vehicle v = NEW dog();
+    int hello = NEW Vehicle();
+
+
+    int whatever(int x, int o){
+        var g = getFive(5);
+
+        if(10<g){
+            var t = 5;
+        }
+
+        return 1;
+    }
+
+
+    int getFive(int x){
+        var i = 0;
+        var j =0;
+        for(i = 0; i<10; i++ ){
+            for(j=0; j<10; j++){
+                break;
+            }
+        }
+        cast(Vehicle, j);
+        return 5;
+
+    }
+
+    void main(){
+
+
+
+        var nothing = whatever(1,2);
+        //nothing = whatever("hi", 2);
+        //nothing = whatever(1, 2, 3);
+
+        nothing = "string";
+    }
+
+
+
+}

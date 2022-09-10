@@ -1,0 +1,57 @@
+Class A{
+    int f = 10;
+}
+
+Class B{
+
+   void action(){}
+}
+
+Class Main extends A{
+
+    int x = 0;
+    int y = 1;
+    A a = this;
+
+    int returnNumber(int x, int y){
+        while(x == 0){
+            x = 1;
+        }
+        if(x < 10){
+          x = this.x;
+	  y = super.f;
+        }
+        return x + y;
+
+    }
+
+
+    String returnString(){
+        var s = "Hello";
+        returnNumber(2,3);
+        return s;
+    }
+
+
+    void main(){
+
+	var main = new Main();
+        var i = 0;
+	for(i = 0; i < 2; i++){
+	    var j = 0;
+	    print("");
+	    print("Going to sleep");
+            for(j = 0; j < 5; j++){
+                print("Zzz...");
+            }
+	    print("Waking up!");
+	    var k = 0;
+	    while(k < 5){
+	        print("Going to class");
+	        k++;
+	    }
+	}
+	
+    }
+}
+
