@@ -15,3 +15,7 @@ This was a semester long project that I worked on along two classmates: Cassidy,
 ## Want to try our compiler?
 
 You can clone the repository and run it with Intellij!!
+
+![Depfu](https://img.shields.io/depfu/dependencies/github/tymkiwdylan/BantamJavaIDE?style=flat-square)
+
+![GitHub followers](https://img.shields.io/github/followers/tymkiwdylan?style=social)
